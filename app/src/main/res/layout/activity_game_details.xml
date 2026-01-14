@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout file for the Game Details Activity -->
+<!-- Made By: Will Conway -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/iu_crimson"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageDetailHeader"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iustadium"
+            android:contentDescription="Game header image" />
+
+        <TextView
+            android:id="@+id/detailTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indiana vs Ohio State"
+            android:textColor="@color/iu_cream"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:id="@+id/detailDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="December 6, 2025 - Lucal Oil Stadium"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="@color/iu_cream"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/teamStatsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final Score"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/iu_cream"
+            android:paddingTop="4dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/playerStatsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Player Stats"
+            android:textColor="@color/iu_cream"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/playerStatsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QB: 15/23, 222 yards, 1 TD\nRB: 16 carries, 69 yards, 0 TD"
+            android:textSize="14sp"
+            android:textColor="@color/iu_cream"
+            android:lineSpacingExtra="3dp"
+            android:paddingTop="4dp" />
+
+    </LinearLayout>
+</ScrollView>

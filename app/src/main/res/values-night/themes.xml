@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CapstoneProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/iu_crimson</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/iu_crimson_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorSurface">@color/iu_crimson_dark</item>
+        <item name="colorOnSurface">@color/iu_cream</item>
+
+        <item name="android:windowBackground">@color/iu_crimson_dark</item>
+
+    </style>
+</resources>

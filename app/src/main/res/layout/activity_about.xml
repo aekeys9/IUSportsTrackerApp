@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout file for the About Activity -->
+<!-- Made By: Will Conway -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageAboutLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/iugoodlogo"
+            android:contentDescription="IU Logo" />
+
+        <TextView
+            android:id="@+id/aboutTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About IU Sports Scores"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/aboutBodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app lets IU students and fans quickly check football and basketball scores, recent games, and game stats using the SportsData.io API. Choose a sport, select a season, and explore past games in an easy to use interface without jumping between multiple websites."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/aboutCreditsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nDeveloped as a capstone project for Mobile App Development at Indiana University"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
